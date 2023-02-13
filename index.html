@@ -4,52 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple P3</title>
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background">
-        <div class="contaeiner">
+<div class="wraper">
+    <div class="container">
+        <header class="header">
+            <a class="header-logo"><img src="/img/Vector.svg" alt=""></a>
+            
+            
+            <input id="menuCheckbox" type="checkbox">
+            <ul class="header-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Stories</a></li>
+            </ul>
+            <label for="menuCheckbox">
+                <span class="material-symbols-outlined icon-close">close</span>
+                <span class="material-symbols-outlined icon-menu">menu</span>
+            </label>
+            <div class="header-download">
+                <a class="btn" href="#">Download for free</a>
+            </div>
 
-            <header class="header_block">
-                <img class="logo_block" src="img/Vector.svg" alt="">
-                <nav class="nav_block">
-                    <a href="#" class="nav_item">Features</a>
-                    <a href="#" class="nav_item">Partners</a>
-                    <a href="#" class="nav_item">Stories</a>
-                </nav>
-                <a href="#" class="button_item first">Download for free</a>
-            </header>
+             
+        </header>
 
-            <main>
-                <div class="flex_container">
-                    <div class="text_blok">
-                        <h1 class="text_name">The Power of<br>Simplicity</h1>
-                        <p class="desc">Instead of spending time searching for the right app, our AI will<br>bring the right app to you.</p>
-                        <div class="btn">
-                            <a href="#" class="button_two_item">Learn</a>
-                        </div>    
-                    
-                        <div class="circl_block">
-                            <img src="img/Ellipse 9.png" alt="#">
-                            <img src="img/Ellipse 9.png" alt="#">
-                            <img src="img/Group 1.svg" alt="#">
-                            <img src="img/Ellipse 9.png" alt="#">
-                            <img src="img/Ellipse 9.png" alt="#">
-                        </div>
-                    </div>
-                </div>
-            </main>
+        <main class="main">
+            <h1 class="main-title">The Power of Simplicity</h1>
+            <p class="main-desc">Instead of spending time searching for the right app, our AI will bring the right app to you.</p>
+            <div>
+                <a href="#" class="main-btn">Learn</a>
+            </div>
+            <div class="loader">
+                <img src="/img/Ellipse 9.svg" alt="#">
+                <img src="/img/Ellipse 9.svg" alt="#">
+                <img src="/img/Group 1.svg" alt="#">
+                <img src="/img/Ellipse 9.svg" alt="#">
+                <img src="/img/Ellipse 9.svg" alt="#">
 
             </div>
-        </div>
-
-
-
+        </main>
     </div>
+</div>
+    
 </body>
 </html>
